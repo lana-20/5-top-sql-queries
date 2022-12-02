@@ -35,3 +35,5 @@ SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employ
 SELECT MAX(salary) FROM employees WHERE salary != (SELECT MAX(salary) FROM employees)
 
 SELECT MAX(salary) FROM employees WHERE salary <> (SELECT MAX(salary) FROM employees)
+
+<img src="https://github.com/lana-20/sql-little-bobby-tables/blob/main/little_bobby_tables.jpeg"/>
